@@ -1,4 +1,4 @@
-# Laboratório de Desenvolvimaneto de Software - Sistema de Aluguel de Carro (LAB02)
+# Laboratório de Desenvolvimento de Software - Sistema de Aluguel de Carro (LAB02)
 
 ## Projeto
 - [Estórias de Usuário](./projeto/estorias_usuario.md)

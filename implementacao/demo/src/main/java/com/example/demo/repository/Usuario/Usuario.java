@@ -1,4 +1,4 @@
-package main.java.com.example.demo.model.Usuario;
+package main.java.com.example.demo.repository.Usuario;
 
 public class Usuario {
     private int id;

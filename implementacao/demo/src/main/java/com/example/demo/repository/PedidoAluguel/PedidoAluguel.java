@@ -1,4 +1,4 @@
-package main.java.com.example.demo.model.PedidoAluguel;
+package main.java.com.example.demo.repository.PedidoAluguel;
 
 import main.java.com.example.demo.model.Carro.Carro;
 import main.java.com.example.demo.model.Cliente.Cliente;

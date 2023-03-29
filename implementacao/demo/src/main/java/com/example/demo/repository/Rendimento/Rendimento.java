@@ -1,4 +1,4 @@
-package main.java.com.example.demo.model.Rendimento;
+package main.java.com.example.demo.repository.Rendimento;
 
 public class Rendimento {
     private int id;

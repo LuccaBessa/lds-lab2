@@ -1,4 +1,4 @@
-package main.java.com.example.demo.model.Endereco;
+package main.java.com.example.demo.repository.Endereco;
 
 public class Endereco {
     private int id;

@@ -6,3 +6,4 @@
 - [Diagrama de Pacotes](./projeto/diagrama_de_pacotes.png)
 - [Diagrama de Classes](./projeto/diagrama_de_classes.png)
 - [Diagrama de Componentes](./projeto/diagrama_de_componentes.png)
+- [Diagrama de Implantação](./projeto/diagrama_de_implantacao.png)

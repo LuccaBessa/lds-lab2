@@ -8,15 +8,15 @@ const modalId: string = 'clienteForm';
 export const Clientes = () => {
   const [selectedCliente, setSelectedCliente] = useState<number | null>(null);
 
-  const getListaClientes = () => {
+  const getListaClientes = async () => {
     try {
-      return ClienteService.listarClientes();
+      return await ClienteService.listarClientes();
     } catch (error) {
       return [];
     }
   };
 
-  const { data } = useQuery({
+  const { data } = useQuery<ICliente[]>({
     queryKey: ['clientes'],
     queryFn: getListaClientes,
   });
@@ -38,7 +38,7 @@ export const Clientes = () => {
             </tr>
           </thead>
           <tbody>
-            {data?.map(
+            {data && data.length > 0 && data.map(
               (cliente: ICliente) => (
                 <label htmlFor={modalId}>
                   <tr key={cliente.id} onClick={() => setSelectedCliente(cliente.id)}>

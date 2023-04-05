@@ -1,15 +1,17 @@
-- US01: Como um cliente, eu gostaria de introduzir um novo pedido de aluguel no sistema. para poder alugar um veículo.
+- US01: Como usuário, eu quero poder autenticar-me no sistema, fornecendo um nome de usuário e senha válidos, para ter acesso às funcionalidades disponíveis e garantir a segurança dos dados.
 
-- US02: Como um cliente, eu gostaria de modificar um pedido de aluguel já existente, caso haja a necessidade de alterar alguma informação.
+- US02: Como cliente, eu quero introduzir um novo pedido de aluguel no sistema para poder alugar um veículo.
 
-- US03: Como um cliente, eu gostaria de consultar o status do meu pedido de aluguel no sistema, para saber se está em análise ou se já foi aprovado.
+- US03: Como cliente, eu quero modificar um pedido de aluguel já existente para que eu possa alterar informações se necessário.
 
-- US04: Como um cliente, eu gostaria de cancelar um pedido de aluguel, caso eu não queira mais alugar o carro.
+- US04: Como cliente, eu quero consultar o status do meu pedido de aluguel no sistema para saber se está em análise ou se já foi aprovado.
 
-- US05: Como uma empresa ou banco (agente), eu gostaria de acessar o sistema para avaliar e modificar pedidos de aluguel que foram introduzidos pelos clientes, caso seja necessário.
+- US05: Como cliente, eu quero cancelar um pedido de aluguel caso eu não queira mais alugar o carro.
 
-- US06: Como uma empresa ou banco (agente), eu gostaria de avaliar financeiramente os pedidos de aluguel introduzidos pelos clientes, para saber se são viáveis.
+- US06: Como agente de uma empresa ou banco, eu quero acessar o sistema para avaliar e modificar pedidos de aluguel que foram introduzidos pelos clientes, caso seja necessário.
 
-- US07: Como uma empresa ou banco (agente), eu gostaria de executar contratos de aluguel aprovados pelo sistema, caso os contratos sejam viávies.
+- US07: Como agente de uma empresa ou banco, eu quero avaliar financeiramente os pedidos de aluguel introduzidos pelos clientes para saber se são viáveis.
 
-- US08: Como banco (agente), eu gostaria de associar um contrato de crédito a um aluguel de automóvel.
+- US08: Como agente de uma empresa ou banco, eu quero executar contratos de aluguel aprovados pelo sistema caso sejam viáveis.
+
+- US09: Como agente de um banco, eu quero associar um contrato de crédito a um aluguel de automóvel para que possa ser feita uma análise de crédito adequada.

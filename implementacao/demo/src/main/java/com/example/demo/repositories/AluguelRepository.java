@@ -14,4 +14,5 @@ public interface AluguelRepository extends JpaRepository<Aluguel, Integer>{
 
     @Query(nativeQuery = true, value = "SELECT * FROM aluguel a WHERE a.cliente = :id")
     List<Aluguel> findByUser_id(@Param("id") Integer id);
+
 }
